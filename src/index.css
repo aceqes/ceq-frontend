@@ -11,3 +11,111 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#sidebar {
+  width: 10%;
+  /*background-color: lightgray;*/
+  border-right: solid 1px black;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  float:left
+}
+
+#detail {
+  width: 90%;
+  display: inline-block;
+  float:left;
+  left: 12%;
+  position: absolute;
+}
+
+/*#filter {*/
+/*  width: 35%;*/
+/*  text-align: center;*/
+/*}*/
+
+.chart-wrapper {
+  margin-top: 50px;
+}
+
+.persons-table {
+  width: 45%;
+  float: left;
+}
+
+.persons-table th {
+  text-align: left;
+}
+
+/* The Modal (background) */
+.modal {
+  /*display: none; !* Hidden by default *!*/
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 20% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  text-align: center;
+
+}
+
+.modal-content h2 {
+  margin-top: 50px;
+}
+
+.modal-content table {
+  text-align: left;
+  width: 50%;
+  margin: auto auto 50px;
+}
+
+.modal-content td {
+  width: 50%;
+}
+
+.modal-content input,
+.modal-content select {
+  height: 20px;
+  width: 100%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+  font-size: 22px;
+}
+
+.warning-message {
+  text-align: center;
+  color: black;
+  font-size: 22px;
+}
